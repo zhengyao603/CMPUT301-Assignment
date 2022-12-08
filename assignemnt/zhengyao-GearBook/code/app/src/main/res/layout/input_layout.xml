@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/input_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Input a valid date (yyyy-mm-dd)" />
+
+    <EditText
+        android:id="@+id/input_maker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Input a valid maker"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Input a valid description"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/input_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Input a valid price ($)"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/input_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Input a valid comment"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

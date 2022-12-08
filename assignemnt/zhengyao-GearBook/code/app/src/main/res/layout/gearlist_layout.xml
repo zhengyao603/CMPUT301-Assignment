@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gear_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/gear_maker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maker"
+        android:textSize="0sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/gear_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/gear_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/gear_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0sp"
+        android:text="comment"
+        android:layout_gravity="center" />
+
+</LinearLayout>
